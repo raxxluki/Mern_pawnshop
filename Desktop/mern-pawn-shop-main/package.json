@@ -1,0 +1,36 @@
+{
+  "name": "mern-es6-template",
+  "version": "0.1.0",
+  "description": "Template project using MongoDB, Express, React & Node ( MERN ) technology stack.",
+  "type": "module",
+  "main": "app.js",
+  "engines": {
+    "node": "^18"
+  },
+  "scripts": {
+    "start": "node --loader ./loader.js app.js",
+    "dev": "nodemon --loader ./loader.js app.js --ignore client"
+  },
+  "keywords": [
+    "MERN",
+    "Mongo",
+    "Express",
+    "React",
+    "Node",
+    "template"
+  ],
+  "author": "Hristo Nikodimov Nenkov",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.0",
+    "resolve": "^1.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

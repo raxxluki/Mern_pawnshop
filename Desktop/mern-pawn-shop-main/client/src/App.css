@@ -1,0 +1,14 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    --heading-font: "";
+    --text-primary: "";
+    --text-secondary: "";
+    --text-italic: "";
+}
+
+#content {
+    flex-grow: 1;
+}
